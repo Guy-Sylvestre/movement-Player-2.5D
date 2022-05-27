@@ -1,0 +1,15 @@
+…or create a new repository on the command line
+echo "# movement-Player-2.5D" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/Guy-Sylvestre/movement-Player-2.5D.git
+git push -u origin master
+
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/Guy-Sylvestre/movement-Player-2.5D.git
+git branch -M master
+git push -u origin master
